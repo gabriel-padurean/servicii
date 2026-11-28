@@ -501,7 +501,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   /* Header pe toată lățimea, ca în original (titlu + meniu la stânga, buton zi/noapte la dreapta);
      fără padding vertical, ca meniul să poată coborî până la linia de jos a header-ului */
   .site-header {
-    gap: 24px;
+    gap: 32px; /* titlu → separator = separator → meniu = între taburi */
     padding: 0 var(--gutter);
   }
 
@@ -525,7 +525,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
     align-self: flex-start;
     width: 1px;
     height: 32px;
-    margin: 14px 36px 0 0; /* centrat vertical față de titlu (centrul la 30px) */
+    margin: 14px 32px 0 0; /* centrat vertical față de titlu (centrul la 30px) */
     background: var(--line);
   }
 
@@ -536,7 +536,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
     flex-direction: row;
     align-items: flex-start;
     padding: 0;
-    gap: 40px;
+    gap: 32px;
     overflow: visible;
   }
 
